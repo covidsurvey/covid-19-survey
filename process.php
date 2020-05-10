@@ -1,6 +1,6 @@
 <?php
 
-if($_POST["submit"]) {
+if($_POST["form-submit"]) {
     $recipient="covid.survey.1105@gmail.com";
     $subject="COVID Survey Feedback";
     $sender=$_POST["name"];
